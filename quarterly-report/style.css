@@ -1,0 +1,63 @@
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+}
+
+#titulo {
+  text-align: center;
+  background: gray;
+  color: white;
+  padding: 10px;
+  margin: 20px;
+}
+
+#containerTabela {
+  margin: 20px auto;
+  width: 80%;
+  background: white;
+  padding: 15px;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+thead, caption, tfoot {
+  background: darkgray;
+  color: white;
+  font-size: 1.1em;
+}
+
+tbody {
+  background: white;
+}
+
+.destaque {
+  font-size: 1.2em;
+  color: red;
+}
+
+.texto {
+  background: lightgray;
+  padding: 10px;
+  margin: 13px auto;
+  width: 80%;
+  text-align: center;
+  font-size: 20px;
+}
+
+.imagem img {
+  width: 25%;
+  border-radius: 10px;
+  margin: 0 auto;
+  display: block;
+}
+
+td, tr, caption {
+  border: 1px solid black; 
+  padding: 8px;
+  text-align: center;
+  vertical-align: middle;    
+}
