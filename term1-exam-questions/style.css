@@ -1,0 +1,49 @@
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: whitesmoke;
+            position: relative;
+        }
+
+        #cabeça {
+            background-color: rgb(61, 61, 255);
+            text-align: center;
+            color: white;
+            padding: 12px;
+        }
+
+        .titulo {
+            color: rgb(61, 61, 255);
+            margin-top: 30px;
+        }
+
+        #amin {
+            margin-left: 12%;
+            margin-right: 12%;
+            background-color: white;
+            border-radius: 20px;
+        }
+
+        .linha {
+            color: rgb(61, 61, 255);
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        .texto {
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+
+        #imagem img {
+            width: 43%;
+            border-radius: 7px;
+            display: block;
+            margin: 0 auto;
+
+        }
+
+        th, td {
+            text-align: center;
+            padding: 5px;
+            width: 20%;
+        }
